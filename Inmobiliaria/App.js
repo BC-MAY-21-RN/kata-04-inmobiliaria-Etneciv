@@ -4,7 +4,6 @@ import HOME from './src/SCREENS/HOME'
 const App: () => Node = () => {
  
   return (
-    
     <HOME/>
   );
 };

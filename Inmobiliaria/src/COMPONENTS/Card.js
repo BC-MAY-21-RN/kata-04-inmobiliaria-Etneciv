@@ -12,6 +12,13 @@ const Card = () =>{
                     style={styles.cardImg}
                     source = {{uri:`${image}`}}
                 />
+                <View style={styles.points}>
+                    <Image
+                        style={[styles.icons,{marginLeft:12,}]}
+                        source = {require('../img/icons/points.png')}
+                    />
+                    <Text style={{color:'#7a6229', fontWeight:'bold'}}>{points}</Text>
+                </View>
             </View>
             <View style={styles.cardInfo}>
                 <Text style={styles.cardTitle}>{title}</Text>
@@ -57,6 +64,6 @@ const Card = () =>{
           />
         </View>
       );
-};//fbedb7 punction
+};
 
 export default Card;

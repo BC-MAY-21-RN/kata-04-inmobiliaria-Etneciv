@@ -37,6 +37,7 @@ module.exports  = StyleSheet.create({
     },
     cardImageContain:{
         flex:2,
+        alignItems:'center'
     },
     cardInfo:{
         margin:10,
@@ -48,6 +49,18 @@ module.exports  = StyleSheet.create({
         margin:10,
         resizeMode:'cover',
         borderRadius:10,
+    },
+    points:{
+        flexDirection:'row',
+        width:75,
+        backgroundColor:'#fbedb7',
+        padding:5,
+        borderRadius:100,
+        color:'#7a6229',
+        position:'absolute',
+        marginTop:90,
+        
+        
     },
     cardTitle:{
         fontWeight:'bold',

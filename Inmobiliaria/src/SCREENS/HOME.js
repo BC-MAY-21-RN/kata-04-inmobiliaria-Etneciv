@@ -14,16 +14,12 @@ import styles from '../styles'
 const HOME: () => Node = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
 
   return (
       
       <ScrollView
         contentInsetAdjustmentBehavior="automatic"
         style={styles.backgroundStyle}>
-        <SearchBar/>
         <Card/>
       </ScrollView>
   );
